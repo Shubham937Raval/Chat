@@ -132,7 +132,7 @@ update();
                     </div>
                     <button className="mainpagerectangle-group"
                     onClick={()=>{
-                      window.location.href='/register'
+                      window.location.href='/ChatApp/register'
                     }}
                     >
                         <div className="mainpageframe-item"></div>
