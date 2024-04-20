@@ -200,12 +200,6 @@ update();
                 </div>
             </section>
             <Footer/>
-            {/* <footer className="mainpageframe-footer">
-                <div className="mainpageframe-child2"></div>
-                <div className="mainpagetech-inc">© 2024 Tech, Inc. </div>
-                <div className="mainpageterms">Terms</div>
-                <div className="mainpageprivacy-updated-042024">Privacy (Updated 04/2024)</div>
-            </footer> */}
             </main>
         </div>
   )
