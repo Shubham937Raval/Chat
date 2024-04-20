@@ -11,10 +11,10 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route exact path='/ChatApp' element={<MainPage/>}/>
-          <Route exact path='/register' element={<Registration/>} />
-          <Route exact path='/login' element={<Login/>} />
-          <Route exact path='/chat' element={<ChatContainer/>}/>
+          <Route exact path='/ChatApp/home' Component={<MainPage/>}/>
+          <Route exact path='/ChatApp/register' Component={<Registration/>} />
+{/*           <Route exact path='/login' element={<Login/>} />
+          <Route exact path='/chat' element={<ChatContainer/>}/> */}
         </Routes>
       </BrowserRouter>
     </>
