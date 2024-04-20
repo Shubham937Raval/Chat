@@ -12,7 +12,7 @@ function App() {
       <HashRouter>
         <Routes>
           <Route exact path='/' element={<MainPage/>}/>
-          <Route exact path='/ChatApp/register' element={<Registration/>} />
+          <Route exact path='/register' element={<Registration/>} />
           <Route exact path='/login' element={<Login/>} />
           <Route exact path='/chat' element={<ChatContainer/>}/>
         </Routes>
