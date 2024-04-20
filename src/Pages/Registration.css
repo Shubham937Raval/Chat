@@ -1,0 +1,560 @@
+.registerlogo1 {
+  position: relative;
+}
+.registerlogo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 19px 0 18.9px;
+}
+.registerwelcome-to-our {
+  align-self: stretch;
+  position: relative;
+  background: linear-gradient(
+    90.32deg,
+    #fff 4.29%,
+    #999 24.4%,
+    rgba(197, 81, 185, 0.71) 54.4%,
+    rgba(46, 53, 218, 0.57) 74.9%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.registercreate-account-btn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 350px 0 0;
+  box-sizing: border-box;
+  min-width: 465px;
+  max-width: 100%;
+}
+.registericoutline-email-icon,
+.registermdipassword-outline-icon {
+  width: 53.4px;
+  height: 53.4px;
+  position: absolute;
+  margin: 0 !important;
+  top: 153.1px;
+  left: 41px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.registermdipassword-outline-icon {
+  height: 48.9px;
+  top: 301.7px;
+}
+.registercreate-your-account {
+  position: relative;
+  font-size: 44.5px;
+  font-family: var(--font-red-rose);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 3;
+}
+.registerlabel,
+.registertitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.registerlabel {
+  width: 694.6px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+}
+.registertitle {
+  width: 301.6px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 44px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs-3);
+  font-family: var(--font-red-rose);
+  font-size: var(--font-size-16xl-6);
+  color: var(--color-white);
+}
+.registerbackground-rect {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-4xs-9);
+  background-color: var(--color-gainsboro-100);
+  border: 1.register8px solid var(--color-mediumblue-200);
+}
+.registerlabel-parent,
+.registertitle-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.registertitle-parent {
+  height: 124.6px;
+  gap: var(--gap-3xs-4);
+}
+.registerlabel-parent {
+  gap: 18.8px;
+  max-width: 100%;
+}
+.registeremail-field,
+.registerenter-your-password {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.registerenter-your-password {
+  width: 372px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-red-rose);
+  font-size: var(--font-size-16xl-6);
+  background-color: transparent;
+  height: 44px;
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+  padding: 0;
+}
+.registeremail-field {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-4xs-9);
+  background-color: var(--color-gainsboro-100);
+  border: 1.8px solid var(--color-mediumblue-200);
+}
+.registercontinue-btn {
+  align-self: stretch;
+  height: 124.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs-4);
+  max-width: 100%;
+}
+.registerconfirm-password,
+.registercontinue-btn-child {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.registerconfirm-password {
+  font-size: var(--font-size-16xl-6);
+  font-family: var(--font-red-rose);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+}
+.registercontinue-btn-child {
+  align-self: stretch;
+  height: 71.2px;
+  border-radius: var(--br-4xs-9);
+  background-color: var(--color-gainsboro-100);
+  border: 1.8px solid var(--color-mediumblue-200);
+  box-sizing: border-box;
+}
+.registeralready-member,
+.registercontinue-btn1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs-4);
+  max-width: 100%;
+}
+.registeralready-member {
+  gap: var(--gap-2xl-3);
+}
+.registerpassword-field {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(46, 53, 218, 0.1);
+  border: 3.register4px solid rgba(46, 53, 218, 0.5);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.registeralready-have-an {
+  position: relative;
+  font-size: 26.7px;
+  text-decoration: underline;
+  font-family: var(--font-red-rose);
+  color: var(--color-white);
+  text-align: left;
+}
+.registeralready-have-an-account-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-10xs) 7.1px;
+}
+.registerframe-child {
+  height: 80.1px;
+  width: 703.9px;
+  position: relative;
+  border-radius: var(--br-4xs-9);
+  background-color: var(--color-darkslategray);
+  border: 0.9px solid var(--color-white);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.registercontinue {
+  position: relative;
+  font-size: var(--font-size-16xl-6);
+  font-family: var(--font-red-rose);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 4;
+}
+.registercontinue-container,
+.registerrectangle-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.registerrectangle-parent {
+  cursor: pointer;
+  border: 0.9px solid var(--color-white);
+  padding: var(--padding-base) var(--padding-xl) 17px;
+  background-color: var(--color-darkslategray);
+  flex: 1;
+  border-radius: var(--br-4xs-9);
+  justify-content: center;
+  z-index: 3;
+}
+.registerrectangle-parent:hover {
+  background-color: #616170;
+  border: 0.9px solid #e6e6e6;
+  box-sizing: border-box;
+}
+.registercontinue-container {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 var(--padding-7xs-3);
+}
+.registeror-sign-up {
+  position: relative;
+  font-size: var(--font-size-16xl-6);
+  font-family: var(--font-red-rose);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 3;
+}
+.registerframe-item {
+  height: 71.2px;
+  width: 71.2px;
+  position: relative;
+  border-radius: 88.98px;
+  background-color: var(--color-white);
+  border: 0.9px solid var(--color-white);
+  box-sizing: border-box;
+  display: none;
+}
+.registergoogle-icon {
+  height: 63.3px;
+  width: 54.2px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.registergithub-logo,
+.registerrectangle-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.registerrectangle-group {
+  width: 71.2px;
+  height: 71.2px;
+  border-radius: 88.98px;
+  background-color: var(--color-white);
+  border: 0.9px solid var(--color-white);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-4xs-2) var(--padding-9xs-9) 8.8px;
+  z-index: 3;
+}
+.registergithub-logo {
+  flex-direction: column;
+  padding: 2px 0 0;
+}
+.registerframe-inner {
+  height: 71.2px;
+  width: 71.2px;
+  position: relative;
+  border-radius: 88.98px;
+  background-color: var(--color-white);
+  border: 0.9px solid var(--color-white);
+  box-sizing: border-box;
+  display: none;
+}
+.registergithub-icon {
+  height: 63.3px;
+  width: 54.2px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.registerrectangle-container {
+  height: 71.2px;
+  width: 71.2px;
+  border-radius: 88.98px;
+  background-color: var(--color-white);
+  border: 0.9px solid var(--color-white);
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-9xs) var(--padding-4xs-2) var(--padding-9xs-9);
+  z-index: 3;
+}
+.registergoogle-logo,
+.registero-r-label,
+.registerrectangle-container {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.registergoogle-logo {
+  display: flex;
+  align-items: flex-start;
+  gap: 27.5px;
+}
+.registero-r-label {
+  padding: 0 43px 0 42.7px;
+}
+.registergithub-sign-up,
+.registergoogle-sign-up,
+.registero-r-label {
+  display: flex;
+  align-items: flex-start;
+}
+.registergithub-sign-up {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 8.register8px;
+}
+.registergoogle-sign-up {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 0 0 29px;
+}
+.registerframe-wrapper,
+.registericoutline-email-parent {
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.registericoutline-email-parent {
+  margin: 0;
+  width: 770.7px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) 29.3px 10.6px 29.5px;
+  position: relative;
+  gap: var(--gap-2xl-3);
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  max-width: 112%;
+}
+.registerframe-wrapper {
+  width: 685.5px;
+  padding: 0;
+  min-width: 685.5px;
+}
+.registercreate-account-btn-parent,
+.registerframe-wrapper,
+.registerlogo-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.registercreate-account-btn-parent {
+  align-self: stretch;
+  flex-direction: row;
+  row-gap: 20px;
+  font-size: 89.9px;
+  font-family: var(--font-red-rose);
+}
+.registerlogo-parent {
+  width: 1400.6px;
+  flex-direction: column;
+  gap: 88.5px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 53.6px;
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.registerdesktop-child,
+.registerdesktop-item {
+  position: relative;
+  border-radius: 50%;
+  display: none;
+}
+.registerdesktop-child {
+  width: 32.1px;
+  height: 32.1px;
+  background-color: #d9d9d9;
+}
+.registerdesktop-item {
+  width: 85.7px;
+  height: 85.7px;
+  background-color: var(--color-white);
+}
+.registerby-creating-an {
+  color: var(--color-silver);
+}
+.registerterms-of-service {
+  text-decoration: underline;
+}
+.registernode {
+  white-space: pre-wrap;
+}
+.registerand {
+  color: var(--color-silver);
+}
+.registerand-container {
+  white-space: pre-wrap;
+}
+.registerprivacy-statement {
+  text-decoration: underline;
+}
+.registerwell-occasionally-send {
+  color: var(--color-silver);
+  white-space: pre-wrap;
+}
+.registerby-creating-an-container {
+  width: 1388.2px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.registerby-creating-an-account-you-ag-wrapper,
+.registerdesktop {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.registerby-creating-an-account-you-ag-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 33px;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 34.9px;
+  color: var(--color-mediumblue-100);
+  font-family: var(--font-red-rose);
+}
+.registerdesktop {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 39.4px 20.7px 199.5px;
+  gap: 202.9px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1125px) {
+  .registerframe-wrapper {
+    flex: 1;
+  }
+  .registercreate-account-btn-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .registerlogo1 {
+    font-size: 43px;
+  }
+  .registerwelcome-to-our {
+    font-size: 45px;
+  }
+  .registercreate-your-account {
+    font-size: 36px;
+  }
+  .registerconfirm-password,
+  .registercontinue,
+  .registerenter-your-password,
+  .registeror-sign-up {
+    font-size: var(--font-size-9xl);
+  }
+  .registerframe-wrapper {
+    min-width: 100%;
+  }
+  .registerby-creating-an-container {
+    font-size: var(--font-size-9xl);
+  }
+  .registerdesktop {
+    gap: 101px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .registercreate-account-btn {
+    padding-top: 227px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .registerlogo-parent {
+    gap: 44px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .registerlogo1 {
+    font-size: 32px;
+  }
+  .registercreate-your-account,
+  .registerwelcome-to-our {
+    font-size: var(--font-size-8xl);
+  }
+  .registeralready-have-an,
+  .registerconfirm-password,
+  .registercontinue,
+  .registerenter-your-password,
+  .registeror-sign-up {
+    font-size: var(--font-size-2xl);
+  }
+  .registero-r-label {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .registerlogo-parent {
+    gap: 22px;
+  }
+  .registerby-creating-an-container {
+    font-size: var(--font-size-2xl);
+  }
+  .registerdesktop {
+    gap: 51px;
+  }
+}
