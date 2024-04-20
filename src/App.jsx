@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import { ChatContainer } from './Pages/ChatContainer'
 import { Registration } from './Pages/Registration'
@@ -9,14 +9,14 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route exact path='/' element={<MainPage/>}/>
           <Route exact path='/register' element={<Registration/>} />
           <Route exact path='/login' element={<Login/>} />
           <Route exact path='/chat' element={<ChatContainer/>}/>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 }
