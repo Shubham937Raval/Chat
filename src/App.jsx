@@ -11,7 +11,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route exact path='/home' element={<MainPage/>}/>
+          <Route exact path='/ChatApp' element={<MainPage/>}/>
           <Route exact path='/register' element={<Registration/>} />
           <Route exact path='/login' element={<Login/>} />
           <Route exact path='/chat' element={<ChatContainer/>}/>
