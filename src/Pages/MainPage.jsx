@@ -130,7 +130,11 @@ update();
                     <div className="mainpagesign-up-wrapper">
                         <b className="mainpagesign-up">Sign up</b>
                     </div>
-                    <button className="mainpagerectangle-group">
+                    <button className="mainpagerectangle-group"
+                    onClick={()=>{
+                      window.location.href='/register'
+                    }}
+                    >
                         <div className="mainpageframe-item"></div>
                         <b className="mainpagesign-up1">Sign up</b>
                     </button>
